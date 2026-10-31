@@ -1,5 +1,5 @@
-num = input("Number: ")
-n = int(num)
+n = int(input("Number: "))
+
 
 if n > 0:
     print("number is positive")
