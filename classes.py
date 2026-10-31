@@ -16,8 +16,7 @@ flight = Flight(5)
 
 people = ["Harry", "Ron", "Hermione", "Ginny"]
 for person in people:
-    sucess = flight.add_passenger(person)
-    if sucess:
+    if flight.add_passenger(person):
         print(f"Add {person} to flight successfully")
     else:
         print(f"No available seats for {person}")
